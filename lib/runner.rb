@@ -5,8 +5,11 @@ welcome
 initial_round 
 
 until hit?(finaltotal) > 21
-  hit?
+  firstnumbers = initial_round
+  hit?(firstnumbers)
   display_card_total
+  nextnumbers = hit?(firstnumbers)
+  
   
 end 
 
