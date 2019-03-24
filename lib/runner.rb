@@ -2,11 +2,11 @@ require_relative "blackjack.rb"
 
 def runner 
 welcome 
-first = initial_round 
+initial = initial_round 
 
 
 until hit?(first) > 21
-  first = hit?(initial_round)
+  first = hit?(initial)
   display_card_total(first)
   hit?(first)
 
