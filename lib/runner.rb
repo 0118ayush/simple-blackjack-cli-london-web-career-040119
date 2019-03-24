@@ -5,9 +5,10 @@ welcome
 initial_round 
 
 
-until hit?(finaltotal) > 21
+until hit?(first) > 21
   first = hit?(initial_round)
-  
+  display_card_total(first)
+  hit?(first)
 
   
 end 
