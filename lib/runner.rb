@@ -8,8 +8,8 @@ until hit?(finaltotal) > 21
   firstnumbers = initial_round
   hit?(firstnumbers)
   display_card_total
-  nextnumbers = hit?(firstnumbers)
-  
+ 
+
   
 end 
 
