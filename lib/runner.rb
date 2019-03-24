@@ -6,6 +6,7 @@ initial_round
 
 
 until card_total > 21
+ hit?(initial_round)
  
 
   
