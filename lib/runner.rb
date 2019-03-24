@@ -2,7 +2,7 @@ require_relative "blackjack.rb"
 
 def runner 
 welcome 
-card_total = initial_round 
+card_total = hit?
 
 
 until card_total > 21
