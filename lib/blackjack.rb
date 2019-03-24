@@ -41,14 +41,12 @@ def hit?(sum)
     newinput = get_user_input
   end
   
-  loop newinput == "s" do
-    prompt_user
-    break if newinput == "h"
+  if newinput == "s" do
+    newtotal = sum
   end
   
   if newinput == "h"
     newtotal = sum + deal_card
- 
   end
   newtotal
 end
