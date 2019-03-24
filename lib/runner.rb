@@ -4,10 +4,10 @@ def runner
 welcome 
 initial_round 
 
+
 until hit?(finaltotal) > 21
-  hit?(initial_round)
-  display_card_total
- finaltotal = hit?(initial_round)
+  first = hit?(initial_round)
+  
 
   
 end 
