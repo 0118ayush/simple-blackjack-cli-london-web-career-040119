@@ -41,7 +41,7 @@ def hit?(sum)
     newinput = get_user_input
   end
   
-  if newinput == "s" do
+  if newinput == "s"
     newtotal = sum
   end
   
